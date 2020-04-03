@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    
   </head>
   <body>
     <noscript>
@@ -13,5 +17,27 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBiK0sq2BYqO6FqZDERod-mbuzdYtwI0pU",
+        authDomain: "hydrogen-fauser.firebaseapp.com",
+        databaseURL: "https://hydrogen-fauser.firebaseio.com",
+        projectId: "hydrogen-fauser",
+        storageBucket: "hydrogen-fauser.appspot.com",
+        messagingSenderId: "74180721737",
+        appId: "1:74180721737:web:a93b863d6957dda9de9398",
+        measurementId: "G-X1MSB9RW2T"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
   </body>
 </html>
