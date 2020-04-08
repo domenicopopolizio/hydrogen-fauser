@@ -164,30 +164,48 @@
             </microarg>
         </macroarg>
         <macroarg title="Il Futuro" :style="macrostyle">
-            <microarg title="obbiettivo" src="https://images.unsplash.com/photo-1522384731535-d1ccd4345321?ixlib=rb-1.2.1&auto=format&fit=crop&w=1244&q=80">
+            <microarg title="Toyota sempre presente" src="https://images.unsplash.com/photo-1522384731535-d1ccd4345321?ixlib=rb-1.2.1&auto=format&fit=crop&w=1244&q=80">
                 <template #punti>
-                    <div>Ora è alle prese con il suo nuovo obbiettivo, quello di convertire la luce solare e l’umidità presente nell’aria in idrogeno. </div>
+                    <div>
+                        L’azienda anche oggi non si smentisce e riesce a sbalordire portando sul mercato soluzioni sempre più nuove e rivoluzionarie, usando una nuova forma di energia: l’idrogeno.
+                        <br>Anche se non è stata la prima a usarla, Hyundai detentrice del record, l’azienda nipponica per eccellenza è stata la prima a portare sul mercato prodotti affidabili e di qualità eccellente.
+                    </div>
                 </template>
             </microarg>
-            <microarg title="perchè" src="https://images.unsplash.com/photo-1568234928966-359c35dd8327?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80">
+            <microarg title="La colpa del TQM" src="https://images.unsplash.com/photo-1568234928966-359c35dd8327?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1999&q=80">
                 <template #punti>
-                    <div>Il Giappone è il più grande importatore di gas naturale allo stato liquido, che rappresenta il 30% dell’energia usata nel paese</div>
+                    <div>Se da un lato c’è l’esigenza dell’azienda che vuole fatturare, dall’altro la filosofia del TQM, che se pure recondita, è ancora presente nella mente di tutti i Giapponesi; infatti, il secondo motivo è strettamente legato all’economia dello stato. 
+                        <br>Il Giappone è il più grande importatore di gas naturale allo stato liquido, che rappresenta il 30% dell’energia usata nel paese, dopo il disastro di Fukushima, che ha portato lo stato a mettere fuori uso la maggior parte dei reattori. 
+                        <br>Questo motivo ha spinto l’azienda a puntare maggiormente su questa nuova fonte di energia.</div>
                 </template></microarg>
-            <microarg title="collettivo" src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+            <microarg title="A cosa si punta" src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
                 <template #punti>
-                    <div>L’azienda in visione futura, punta a diminuire del 90% le emissioni di C02 nell’atmosfera rispetto all’emissioni del 2010. </div>
+                    <div>La futura visione aziendale punta a diminuire del 90% le emissioni di C02 nell’atmosfera rispetto all’emissioni del 2010. 
+                       <br> Per mantenere la promessa di diminuire il 90% delle emissioni, l’azienda ha bisogno di un utilizzo massiccio di celle per la conservazione di idrogeno, ciò vuol dire che le altre aziende dovranno essere pronte a compiere questo passo. 
+                    </div>
                 </template>
             </microarg>
              <microarg title="La concorrenza" src="https://images.wired.it/wp-content/uploads/2018/05/04011945/1525382380_Elon-Musk.jpg">
                 <template #punti>
                     <div>
-                        Elon Musk, ha affermato più volte che l’idea è completamente inutile e priva di fondamenta. 
+                        Elon Musk, co-fondatore e CEO di Tesla, ha affermato più volte che l’idea che vedrebbe l’idrogeno usato nelle macchine, non lo entusiasma, anzi secondo lui l’idea è completamente inutile e priva di fondamenta. 
+                        <br>Il dibattito continua ad essere dirompente ed estenuante, tuttavia non sembrano esserci segni di passi indietro da parte di Toyota. 
                     </div>
                 </template>
             </microarg>
-            <microarg title="dati" src="https://images.unsplash.com/photo-1506555191898-a76bacf004ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80">
+            <microarg title="Hydrogen council" src="https://global.toyota/pages/news/images/2018/06/14/1700/20180614_02_ogp.jpg">
                 <template #punti>
-                    <div>Hydrogen Council ha dichiarato che entro il 2030, il prezzo dell’idrogeno scenderà quasi al 50% del valore attuale.</div>
+                    <div>
+                        Hydrogen Council, dal sito web, è un’iniziativa globale per guidare l’energia, il trasporto e le industrie in una visione unita e con ambizioni a lungo termine per quanto riguarda l’uso e gli investimenti nel campo dell’idrogeno per l’energia.
+                        <br>Con questa iniziativa si vuole definire ed implementare un definito piano d’azione con gli appropriati strumenti di supporto che aiuteranno ad accelerare gli investimenti sulla commercializzazione su larga scala di soluzioni basate sulla tecnologia dell’idrogeno per industrie di tutto il mondo.
+                    </div>
+                </template>
+            </microarg>
+            <microarg title="Parola ai dati" src="https://images.unsplash.com/photo-1506555191898-a76bacf004ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80">
+                <template #punti>
+                    <div>
+                        Il 20 Gennaio 2020, Hydrogen Council, ha pubblicato un nuovo report, dove afferma che il costo dell’idrogeno sta scendendo notevolmente. Ha dichiarato anche che entro il 2030, il prezzo dell’idrogeno scenderà quasi al 50% del valore attuale.
+                        <br>È anche bene precisare che Hydrogen Council  per questa ricerca ha effettuato diverse ipotesi, talvolta estremamente positive, per esempio un futuro aumento di  distributori a idrogeno, previsione non coerente con l’andamento reale. </div>
                 </template>
             </microarg>
         </macroarg>
@@ -224,8 +242,8 @@
                 Contento Alessia, El Aamraoui Youssef, Foglio Giulia, Mazzucchi Marcello, Silva Marceu, Popolizio Domenico della classe 5bin dell'ITT G. Fauser di Novara a.s. 2019/2020
             </div>
             <div  class="second"> 
-                <div @click="main" class="go-main btn" > <i class="material-icons">web</i> sito </div>
-                <div @click="download" class="go-main btn" > <i class="material-icons">description</i> testo </div>
+                <div @click="main" class="go-main btn" > <i class="material-icons">visibility</i>  sito  </div>
+                <div @click="download" class="go-main btn" > <i class="material-icons">description</i>  testo integrale </div>
             </div>
         </div>
         <div class="logo" :class="{'on-first':firstPage, 'on-macro':$route.params.macroarg}" @click="first"><span class="h">H</span><span>Project</span></div>
@@ -346,7 +364,7 @@ export default {
     width: 100%;
     height: 100vh;
     /* background-color: rgba(255,255,255,0.5);  */
-    background-color: var(--background-color);
+    background-image: url("https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     transition-duration: 0.7s;
 }
 .mainpage.on-first .macroarg {
