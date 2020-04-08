@@ -1,66 +1,109 @@
 <template>
     <div class="mainpage" @resize='onresize' :class="{'on-first':firstPage, 'on-macro':$route.params.macroarg}">
         <macroarg title="cos’è" :style="macrostyle"  >
-            <microarg title="L'Elemento" src="https://images.unsplash.com/photo-1505051508008-923feaf90180?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" >
+            <microarg title="L'Elemento" src="https://www.hitechlife.it/wp-content/uploads/2019/03/idrogeno.jpg" >
                 <template #punti>
                     <div>
-                        L’Idrogeno è il primo elemento della tavola periodica, posto in alto a sinistra col simbolo “H”, è il più leggero con numero atomico di 1.
+                        L’idrogeno è l’elemento più comune dell’universo osservabile, nonostante questo sulla terra l’elemento è presente in forma gassosa solo l’1% , infatti il restante lo si può trovare negli oceani composto nell’acqua.
+                        <br>Si può produrre tramite il vapore o in modi alternativi.<br><br>
+                        Possiede 3 isotopi:<br>
+                        Prozio, il più comune.<br>
+                        Deuterio, più viscoso e denso.<br>
+                        Trizio, radioattivo.<br><br>
+                        L’idrogeno, grazie alle sue proprietà fisiche e chimiche, può essere un ottimo generatore e vettore energetico alternativo, infatti è già un elemento essenziale per l’energia nucleare, ma può essere sfruttato anche singolarmente come combustibile.
+
                     </div>
                 </template> 
             </microarg>
             <microarg title="Proprietà fisiche" src="https://www.reccom.org/wp-content/uploads/2019/12/what-element-did-henry-cavendish-discover-in-1766.jpg" >
                 <template #punti>
-                    <div>L'idrogeno metallico solido ha una conduttività elettrica maggiore rispetto a qualsiasi altro elemento solido. </div>
+                    <div>È l’elemento più leggero.<br>
+                        Gli atomi di idrogeno formano molecole di H2, particolarmente più piccole delle altre molecole, è incolore, inodore e insapore. <br>Questo elemento è uno dei principali costituenti dell'acqua e di tutte le materie organiche ed è ampiamente distribuito non solo sulla terra ma anche in tutto l'Universo .
+                    </div>
                 </template> 
             </microarg> 
             <microarg title="Proprietà chimiche" src="https://www.e-alyss.com/blog/wp-content/uploads/2015/10/Scientist.jpg" >
                 <template #punti>
-                    <div>Quando l'idrogeno reagisce con l'ossigeno in un processo di conversione elettrochimica o di combustione per generare energia, il prodotto di reazione risultante è vapore acqueo. </div>
+                    <div>È il primo elemento della tavola periodica.<br>      
+                        Il suo atomo è chimicamente molto reattivo, per questo in natura si trova raramente, al contrario della sua molecola che è poco reattiva. 
+                        <br>L'idrogeno reagisce violentemente con ossidanti come protossido di azoto, alogeni e idrocarburi insaturi con intenso calore esotermico.</div>
                 </template> 
             </microarg> 
             <microarg title="Proprietà combustibili" src="https://images.unsplash.com/photo-1517594422361-5eeb8ae275a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" >
                 <template #punti>
-                    <div>L'idrogeno è altamente infiammabile in un'ampia gamma di temperature e concentrazioni.</div>
+                    <div>È altamente infiammabile.<br>
+                        La sua alta infiammabilità e detonabilità lo rendono un ottimo combustibile per il futuro, ma ci sono diversi problemi da sistemare, come la sicurezza nella produzione lo stoccaggio e il trasporto.
+                    </div>
                 </template> 
             </microarg> 
         </macroarg>
         <macroarg title="Produzione" :style="macrostyle" >
             <microarg title="In crescita" src="https://images.unsplash.com/photo-1473042904451-00171c69419d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1975&q=80">
                 <template #punti >
-                    <div>Il tasso di crescita stimato per la produzione d'idrogeno è del 10% annuo. </div>
+                    <div>Un'economia basata sull'idrogeno è un tipo di sistema economico ipotizzato per il futuro, anche se già parzialmente utilizzato.<br>L'idrogeno puro non è disponibile nel nostro pianeta. La maggior parte dell'idrogeno "conveniente" può essere estratto da altre sostanze con procedure chimiche ed elettrolitiche oppure può essere prodotto da altri combustibili utilizzando sostanze ad elevato contenuto energetico.<br>La produzione dell'idrogeno avviene per il 48% da gas naturale, per il 30% dal petrolio (sottoprodotto della distillazione e reforming del gasolio), per il 18% dal carbone. L'elettrolisi dell'acqua viene impiegata per produrre soltanto il 4%.</div>
                 </template>
             </microarg>
             <microarg title="In Italia" src="https://images.unsplash.com/photo-1576091160651-e028ca26a943?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
-                    <div>Il Gruppo Sapio è il maggiore produttore di "idrogeno. La sua raffineria di Mantova produce 450.000 metri cubi di H2 giorno.</div>
+                    <div>Mantova<br>Il Gruppo Sapio è il maggiore produttore di "idrogeno merchant" (destinato alla vendita ad altre industrie, enti o privati) in Italia.</div>
                 </template>
             </microarg>
-            <microarg title="Infrastrutture" src="https://images.unsplash.com/photo-1563696992148-626c57c95457?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+            <microarg title="Stoccaggio dell'idrogeno " src="https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
-                    <div>L’economia dell’idrogeno necessita di nuove infrastrutture di produzione, stoccaggio e trasporto di questo nuovo combustibile. </div>
+                    <div>Lo stoccaggio dell’idrogeno è ancora una materia in fase di studio, difatti tutte le soluzioni pensate fino a questo punto presentano numerosi difetti e comportano un enorme dispendio energetico ed economico.</div>
                 </template>
             </microarg>
-            <microarg title="Micro-fibre" src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+            <microarg title="STOCCAGGIO IN FORMA LIQUIDA- CRIOGENICA " src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
-                    <div>Questa tecnica è ancora in fase di sviluppo.</div>
+                    <div>Per stoccare l’idrogeno in forma liquida lo si deve prima di tutto portare ad una temperatura di -252,882°C e poi isolare termicamente all’interno dei serbatoi. <br>Il materiale isolante ha tutt’ora un prezzo non indifferente e la densità dell’idrogeno liquido è irrilevante, questo vuol dire che per produrre energia ne servirebbe moltissimo.</div>
+                </template>
+            </microarg>
+            <microarg title="STOCCAGGIO IN AMMONIACA" src="https://images.unsplash.com/photo-1562411053-c9ac630a5934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80">
+                <template #punti>
+                    <div>Stoccare l’idrogeno in ammoniaca potrebbe essere una soluzione abbastanza risolutiva. La temperatura a cui si dovrebbe portare il composto è di -35°C, quindi molto più accettabile e inoltre l’ammoniaca è molto conosciuta e studiata in tutto il mondo.<br> I difetti maggiori di questa soluzione sono l’alta pressione a cui l’ammoniaca deve essere portata per bruciare e i gas tossici che la combustione produce.</div>
+                </template>
+            </microarg>
+            <microarg title="STOCCAGGIO CON IDRURI METALLICI" src="https://images.unsplash.com/photo-1515707384144-8c119444db05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80">
+                <template #punti>
+                    <div>Recenti studi hanno dimostrato che gli idruri di litio, sodio e magnesio possono essere utilizzati come contenitori per l’idrogeno. Essi sono abbastanza facili da manipolare e sono anch’essi molto conosciuti, ma i difetti che questa soluzione presenta sono molteplici. <br>La combustione degli idruri è improvvisa e incontrollata, in più i gas che essa produce sono tossici per la pelle. Un serbatoio a idruri è molto più pesante di uno a idrocarburi e i costi per riciclare questi materiali sono notevoli.</div>
+                </template>
+            </microarg>
+            <microarg title="STOCCAGGIO CON L’HYTHANE" src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                <template #punti>
+                    <div>Nel 2007 è stata presentata al mondo un composto formato da idrogeno e metano, entrambi gassosi, portati a temperatura ambiente ma ad alte pressioni. <br>Questa miscela brucia nei motori a combustione interna con bassa compressione ed è una soluzione molto ecologica.</div>
+                </template>
+            </microarg>
+            <microarg title="STOCCAGGIO CHIMICO" src="https://images.unsplash.com/photo-1581093577421-f561a654a353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                <template #punti>
+                    <div>L’idrogeno può anche essere immagazzinato grazie a sostanze chimiche, come per esempio il biossido di titanio. Esso, una volta scaldato, libera idrogeno sotto forma gassosa.</div>
+                </template>
+            </microarg>
+            <microarg title="NUOVI STUDI" src="https://images.unsplash.com/photo-1458040937381-49c067dfd49a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80">
+                <template #punti>
+                    <div>Con l’avanzare delle nanotecnologie nuovi metodi stanno pian piano nascendo, come quella dei nanotubi di silicio che hanno la capacità di trasportare l’idrogeno. <br>Nuove tecnologie nasceranno e pian piano l’idrogeno diventerà parte della nostra quotidianità</div>
                 </template>
             </microarg>
         </macroarg>
         <macroarg title="Trasporto" :style="macrostyle" > 
-            
             <microarg title="Auto" src="https://t1-cms-1.images.toyota-europe.com/toyotaone/itit/toyota-mirai-2018-exterior-tme-001-a-full_tcm-20-1142850.jpg">
                 <template #punti>
-                    <div>Quando si parla di auto ad idrogeno si intende un veicolo che converte l’energia chimica in energia meccanica. </div>
+                    <div>Il progetto per la costruzione di un’auto ad idrogeno si è rapidamente diffuso e sono già state ipotizzate diverse forme di motore che sfrutti l’energia dell’H2.<br>L’idrogeno può bruciare in un motore a combustione interno, in questo caso si parla di auto a idrogeno HICEV (Hydrogen Internal Combustion Engine Vehicle).<br> Si può anche provocare una reazione con l’ossigeno in una pila a combustibile, producendo elettricità. In questo caso di parla di auto a idrogeno FCEV (Fuel Cell Electric Vehicle).<br>La Toyota Mirai è la prima macchina a idrogeno regolarmente in vendita presso i concessionari del marchio giapponese anche se non in tutti i Paesi, il suo nome significa infatti “Futuro”.</div>
                 </template>
             </microarg>
             <microarg title="Treni a idrogeno" src="https://cms.qz.com/wp-content/uploads/2018/09/alstom-ilint-cordia-hydrogen-train.jpg?quality=75&strip=all&w=1600&h=900&crop=1">
                 <template #punti>
-                    <div>Il convoglio si chiama Alstom Coradia iLint, può ospitare fino a 300 passeggeri e circola nel Nord della Germania.</div>
+                    <div>Il convoglio si chiama Alstom Coradia iLint e può ospitare fino a 300 passeggeri e circola sui binari della Bassa Sassonia, nel Nord della Germania.iLint ha un’autonomia dell’ordine di 1000 chilometri, emette soltanto vapore e acqua di condensa, un risultato a “emissioni zero” che ne annulla l’impatto ambientale.</div>
+                </template>
+            </microarg>
+             <microarg title="Nel futuro" src="https://images.unsplash.com/photo-1540234142602-e9abed6768c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+                <template #punti>
+                    <div>Sembra che il trasporto dell’idrogeno non sia conveniente per lunghe distanze. I progressi nella tecnologia dell'elettrolisi e delle pile a combustibile non hanno ancora risolto i vari problemi di trasferimento. Ci sono vari metodi per trasportare idrogeno, non sempre del tutto convenienti.<br>Condotte gas naturale, linee elettriche, condotte a idrogeno ad alta pressione, condotte miste.
+                    </div>
                 </template>
             </microarg>
         </macroarg>
         <macroarg title="Ambiente" :style="macrostyle"> 
-            <microarg title="Pro e Contro" src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+            <!--<microarg title="Pro e Contro" src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
                     <div class="cnt_pro-contro">
                         <div class="pro">
@@ -93,19 +136,30 @@
                        
                     </div>
                 </template>
-            </microarg>
-            <microarg title="IL muro" src="https://images.unsplash.com/photo-1564608938148-e3c5325907ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80">
+            </microarg>-->
+
+
+            <microarg title="Benefici" src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
-                    <div>Il reforming del gas naturale, che permette la produzione d’idrogeno crea come sottoprodotto l'anidride carbonica (CO2), un gas serra.</div>
-                </template></microarg>
-            <microarg title="Altre tecniche" src="https://images.unsplash.com/photo-1515075015069-3ccced1acbb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
-                <template #punti>
-                    <div>Come alternativa alla generazione per via elettrolitica, l'idrogeno può essere ottenuto dal metano procedura con un'efficienza energetica di circa l'80%</div>
+                    <div>La sostituzione delle fonti energetiche non rinnovabili, come i combustibili fossili, darebbe una soluzione al problema energetico mondiale. L’unico sistema di produzione dell’idrogeno economicamente sostenibile è il reforming.</div>
                 </template>
             </microarg>
-            <microarg title="Il blocco" src="https://images.unsplash.com/photo-1523537444585-432d2bacc10d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+            <microarg title="Ostacoli" src="https://images.unsplash.com/photo-1564608938148-e3c5325907ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80">
                 <template #punti>
-                    <div>Gli esperti pensano che l'energia necessaria per comprimere il gas sia uno dei problemi irrisolvibili nell'idea di costituire un'economia basata sull'idrogeno</div>
+                    <div>•	Convenienza termodinamica<br>
+                         •	Convenienza economica<br>
+                         •	Emergere di soluzioni alternative<br>
+                         •	Impegno diretto dell’energia solare<br>
+                    </div>
+                </template></microarg>
+            <microarg title="Problemi ambientali" src="https://images.unsplash.com/photo-1516660198581-439b5ac48822?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                <template #punti>
+                    <div>Al giorno d’oggi, circa il 48% dell’idrogeno gassoso viene creato grazie al reforming del gas naturale, attraverso il metodo della reazione di spiazzamento dell’acqua. Questo processo crea come sotto prodotto l’anidride carbonica (CO2), un gas serra.<br>L’idrogeno molecolare tende a fuoriuscire lentamente da ogni tipo di suo mezzo di contenimento.</div>
+                </template>
+            </microarg>
+            <microarg title="Problemi attualmente irrisolvibili" src="https://images.unsplash.com/photo-1523537444585-432d2bacc10d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
+                <template #punti>
+                    <div>Attualmente l’energia necessaria per comprimere l’idrogeno è uno dei problemi maggiori, perché è richiesta in grandi quantità e i costi sono elevati.<br>Inoltre è stato prospettato che automobili alimentate  da batterie al litio-ione siano dei trasportatori energetici più efficienti rispetto alle automobili ad indrogeno.</div>
                 </template>
             </microarg>
         </macroarg>

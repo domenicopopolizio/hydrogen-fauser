@@ -8,7 +8,7 @@
 :root {
   --primary-color: white;
   --secondary-color: aqua;
-  --background-color: rgba(0, 0, 0, 0.377);
+  --background-color: rgba(0, 0, 0, 0.60);
 }
 #app {
   font-family: 'Poppins', sans-serif;

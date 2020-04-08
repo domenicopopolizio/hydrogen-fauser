@@ -91,6 +91,8 @@ export default {
 }
 .punti-interno { 
     transform: scaleX(-1);
+    line-height: 2.0;
+    word-spacing: 9px;
 }
 .microarg:not(.active) * {
     display: block;
