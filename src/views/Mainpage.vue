@@ -209,29 +209,119 @@
                 </template>
             </microarg>
         </macroarg>
-        <macroarg title="titolo6" :style="macrostyle"> 
-            <microarg title="sub1" src="https://d279m997dpfwgl.cloudfront.net/wp/2018/02/0209_markets-1000x666.jpg">
+        <macroarg title="Merccato" :style="macrostyle"> 
+            <microarg title="panoramica mercato" src="https://d279m997dpfwgl.cloudfront.net/wp/2018/02/0209_markets-1000x666.jpg">
                 <template #punti>
-                    <div>1</div>
+                    <div>
+                        <ul>
+                            <li> Mercato in crescita  </li>
+                            <li> Compressione del gas domina </li>
+                            <li> Soluzione green  </li>
+                            <li> Nord america e europa   </li>
+                            <li> Vari usi  </li>
+                        </ul>
+                    </div>
                 </template>
             </microarg>
-            <microarg title="sub2" src="https://images.unsplash.com/photo-1473876637954-4b493d59fd97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80">
+            <microarg title="dinamiche di mercato" src="https://images.unsplash.com/photo-1473876637954-4b493d59fd97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80">
                 <template #punti>
-                    <div>2</div>
+                    <div class="cnt_pro-contro">
+                        <div class="pro">
+
+                            <ul>
+                            <li>Aumento di richiesta</li>
+                                <ul>
+                                    <li>richiesta industria chimica</li>
+                                    <li>veicoli elettrici</li>
+                                    <li>infrastrutture in aumento</li>
+                                </ul>
+                            </ul>
+
+                            <ul>
+                            <li>Vincoli: costo</li>
+                                <ul>
+                                    <li>in diminuzione</li>
+                                    <li>avanzamento tecnologico</li>
+                                </ul>
+                            </ul>
+                        </div>
+
+                        <div class="contro">
+                            <ul>
+                            <li>Opportunità</li>
+                                <ul>
+                                    <li>power-to-gas</li>
+                                    <li>green</li>
+                                    <li>veicoli elettrici</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
                 </template></microarg>
-            <microarg title="sub3" src="https://global.toyota/pages/news/images/2018/06/14/1700/20180614_02_ogp.jpg">
+            <microarg title="aziende" src="https://global.toyota/pages/news/images/2018/06/14/1700/20180614_02_ogp.jpg">
                 <template #punti>
-                    <div>3</div>
+                    <div class="cnt_pro-contro">
+                        <div class="pro">
+                            <ul>
+                            <li>Offerta di servizio</li>
+                                <ul>
+                                    <li>Hydrogenics</li>
+                                    <li>ITM Power</li>
+                                    <li>Ballard Power</li>
+                                </ul>
+                            </ul>
+
+                            <ul>
+                            <li>Investimenti</li>
+                                <ul>
+                                    <li>3m</li>
+                                    <li>AirBus</li>
+                                    <li>AirLiquide</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="contro">
+
+                        <ul>
+                        <li>Hydrogenics</li>
+                            <ul>
+                                <li>power-to-gas</li>
+                                <li>green</li>
+                                <li>veicoli elettrici</li>
+                            </ul>
+                        </ul>
+
+                        <ul>
+                        <li>H2Planet</li>
+                            <ul>
+                                <li>power-to-gas</li>
+                                <li>green</li>
+                                <li>veicoli elettrici</li>
+                            </ul>
+                        </ul>
+                        </div>
+
+                    </div>
                 </template>
             </microarg>
-            <microarg title="sub4" src="https://www.congrestolken.nl/wp-content/uploads/stock-market.jpg">
+            <microarg title="Hydrogen council" src="https://www.congrestolken.nl/wp-content/uploads/stock-market.jpg">
                 <template #punti>
-                    <div>3</div>
+                    <div>
+
+                        <ul>
+                            <li> Iniziativa globale   </li>
+                            <li> Coalizione ceo </li>
+                            <li> Leading aziende hydrogen  </li>
+                        </ul>
+
+
+
+                    </div>
                 </template>
             </microarg>
-            <microarg title="sub5" src="https://images.unsplash.com/photo-1517076731070-13c65bcb2e86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80">
+            <microarg title="Grazie! " src="https://images.unsplash.com/photo-1517076731070-13c65bcb2e86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80">
                 <template #punti>
-                    <div>3</div>
+                    <div>Ringraziamo per l'attenzione</div>
                 </template>
             </microarg>
         </macroarg>
