@@ -223,7 +223,7 @@
                     </div>
                 </template>
             </microarg>
-            <microarg title="dinamiche di mercato" src="https://images.unsplash.com/photo-1473876637954-4b493d59fd97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1966&q=80">
+            <microarg title="dinamiche di mercato" src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
                     <div class="cnt_pro-contro">
                         <div class="pro">
@@ -258,7 +258,7 @@
                         </div>
                     </div>
                 </template></microarg>
-            <microarg title="aziende" src="https://global.toyota/pages/news/images/2018/06/14/1700/20180614_02_ogp.jpg">
+            <microarg title="aziende" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80">
                 <template #punti>
                     <div class="cnt_pro-contro">
                         <div class="pro">
@@ -304,7 +304,7 @@
                     </div>
                 </template>
             </microarg>
-            <microarg title="Hydrogen council" src="https://www.congrestolken.nl/wp-content/uploads/stock-market.jpg">
+            <microarg title="Hydrogen council" src="https://global.toyota/pages/news/images/2018/06/14/1700/20180614_02_ogp.jpg">
                 <template #punti>
                     <div>
 
