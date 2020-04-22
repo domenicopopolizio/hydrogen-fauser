@@ -209,7 +209,7 @@
                 </template>
             </microarg>
         </macroarg>
-        <macroarg title="Merccato" :style="macrostyle"> 
+        <macroarg title="Mercato" :style="macrostyle"> 
             <microarg title="panoramica mercato" src="https://d279m997dpfwgl.cloudfront.net/wp/2018/02/0209_markets-1000x666.jpg">
                 <template #punti>
                     <div>
@@ -304,7 +304,7 @@
                     </div>
                 </template>
             </microarg>
-            <microarg title="Hydrogen council" src="https://global.toyota/pages/news/images/2018/06/14/1700/20180614_02_ogp.jpg">
+            <microarg title="Hydrogen council" src="https://live.staticflickr.com/8441/7789296136_1954e855ef_3k_d.jpg">
                 <template #punti>
                     <div>
 
@@ -327,7 +327,7 @@
         </macroarg>
         <div class="first-page" :class="{'on-first':firstPage}">
             <div class="first"> 
-                <b>ATTENZIONE: </b> design in aggiornamento<br><br>
+                
                 Progetto sulla tecnologia Idrogeno di
                 Contento Alessia, El Aamraoui Youssef, Foglio Giulia, Mazzucchi Marcello, Silva Marceu, Popolizio Domenico della classe 5bin dell'ITT G. Fauser di Novara a.s. 2019/2020
             </div>
